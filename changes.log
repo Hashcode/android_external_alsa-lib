@@ -1,0 +1,96 @@
+commit ceee119f77abd4c8e6be8b5eef0000ccf9819512
+Author: Yu Kang Ku <w18021@motorola.com>
+Date:   Thu May 12 12:23:53 2011 -0500
+
+    IKSTABLEFIVE-8054: Prelink libasound.so
+    
+    Change-Id: Ib6f1d753073259d440aa3f678f19d383ca05167a
+    Reviewed-on: http://gerrit.pcs.mot.com/188324
+    Tested-by: Jira Key <JIRAKEY@motorola.com>
+    Reviewed-by: Klocwork kwcheck <klocwork-kwcheck@sourceforge.mot.com>
+    Reviewed-by: Jonathan Eklund <jeklund@motorola.com>
+    Reviewed-by: Shivank Sinha <shivank.sinha@motorola.com>
+
+commit 1fc2c40d3259ba82c1bdd9360385ba5ec1349e45
+Author: Dragoslav Mitrinovic <fdm224@motorola.com>
+Date:   Wed Apr 6 22:27:22 2011 -0500
+
+    IKSTABLEFIVE-4656 copy COPYING into NOTICE to make build system pick it up
+    
+    Change-Id: I34f0312976cca5c4253238e87cc583025e3958be
+    Reviewed-on: http://gerrit.blurdev.com/76717
+    Tested-by: Jira Key <jirakey@motorola.com>
+    Reviewed-by: Klocwork kwcheck <kwcheck@motorola.com>
+    Reviewed-by: Liang-Tao Gao <w20048@motorola.com>
+    Reviewed-by: Han-Qiang Wang <w20115@motorola.com>
+
+commit 40882fcb7687c3e836828660bff44b1f8e63695a
+Author: Libin Tang <w16529@motorola.com>
+Date:   Fri Jan 21 16:07:50 2011 -0600
+
+    Fix no audio issue
+    
+    Change-Id: I72873815d37b5572824c472616c6cd85efd0cab7
+    Reviewed-on: http://gerrit.blurdev.com/47646
+    Tested-by: Gerrit Code Review <gerrit-blurdev@motorola.com>
+    Reviewed-by: Libin Tang <w16529@motorola.com>
+
+commit 24def9277c1bf4ed5c19b73ed3e76d761f992ddb
+Author: Sean McNeil <sean.mcneil@windriver.com>
+Date:   Wed Jul 7 09:03:47 2010 +0700
+
+    Remove shared memory access.
+    
+    Somehow these changes didn't get committed.
+    
+    Change-Id: Ida7b706de56d95c8fb22d2708711a4d68c41ddaa
+
+commit 17cdbdf342c647cb1f37c3509810c8076b878b62
+Author: Sean McNeil <sean.mcneil@windriver.com>
+Date:   Fri Jul 2 16:52:59 2010 +0700
+
+    Update alsa-lib to version 1.0.23.
+    
+    Change-Id: Ia95e09adbb5b6bb5ed09f53201a9cb4205dd5c5d
+
+commit 216eb9c3482a0129836f0af668a6b9cde3643157
+Author: Sean McNeil <sean.mcneil@windriver.com>
+Date:   Wed Dec 2 23:04:14 2009 +0700
+
+    Change to shared library as libaudio.so size has decreased.
+
+commit 7d7fc0e490064bd51f8fe43b397c7598504bff81
+Author: Sean McNeil <sean.mcneil@windriver.com>
+Date:   Thu Jun 18 10:27:57 2009 +0700
+
+    Enable additional plugins. Enable inlining.
+
+commit 8cc17854263f1cd30e4ef852ae13a010ab170a2f
+Author: Sean McNeil <sean.mcneil@windriver.com>
+Date:   Fri Apr 3 09:03:18 2009 +0700
+
+    Eliminate SYSV shared memory support. Bionic doesn't have support of sys/shm.h
+
+commit c4c3becb9fb9b7d3dac091d2c0c2c1a3702a3b02
+Author: Sean McNeil <sean.mcneil@windriver.com>
+Date:   Thu Mar 12 04:27:17 2009 +0700
+
+    Accept careless whitespace around 'true' when setting BOARD_USES_ALSA_AUDIO
+
+commit b0d0efe6c5a1e3cd8fdbd708705403df46f89f7f
+Author: Sean McNeil <sean.mcneil@windriver.com>
+Date:   Thu Feb 19 21:37:15 2009 +0700
+
+    Update to version 1.0.19
+
+commit 1b6d05f77a9e87ef1f03bf27a25075351f88ad01
+Author: Xiaopeng Yang <xiaopeng.yang@windriver.com>
+Date:   Thu Nov 20 10:37:39 2008 +0800
+
+    Initial Contribution
+
+commit 7e16215900a133db99c2c8f817c55d05395874ed
+Author: Xiaopeng Yang <xiaopeng.yang@windriver.com>
+Date:   Wed Nov 19 14:30:47 2008 +0800
+
+    external/alsa-lib 1.0.16
