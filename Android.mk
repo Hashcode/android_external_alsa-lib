@@ -39,7 +39,7 @@ copy_from := $(addprefix $(LOCAL_ALSA_CONF_DIR)/,$(copy_from))
 $(copy_to) : $(TARGET_ALSA_CONF_DIR)/% : $(LOCAL_ALSA_CONF_DIR)/% | $(ACP)
 	$(transform-prebuilt-to-target)
 
-ALL_PREBUILT += $(copy_to)
+PRODUCT_COPY += $(copy_to)
 
 include $(CLEAR_VARS)
 
